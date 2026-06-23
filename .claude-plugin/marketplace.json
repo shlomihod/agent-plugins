@@ -1,0 +1,30 @@
+{
+  "name": "agent-plugins",
+  "owner": {
+    "name": "Shlomi Hod"
+  },
+  "description": "Shlomi Hod's library of AI agent plugins.",
+  "plugins": [
+    {
+      "name": "drive-claude-code-with-tmux",
+      "source": "./plugins/drive-claude-code-with-tmux",
+      "description": "Drive a Claude Code instance with tmux: launch it, send prompts, poll its screen, answer its permission prompts, read back what it did, and clean up. Ships a sourceable helper library (cc_*/td_* shell functions) plus a tmux + Claude Code reference.",
+      "version": "0.1.0",
+      "keywords": [
+        "tmux",
+        "claude-code",
+        "subagent",
+        "automation",
+        "multi-agent",
+        "tui"
+      ]
+    },
+    {
+      "name": "ezra",
+      "source": { "source": "github", "repo": "shlomihod/ezra" },
+      "description": "AI document review with tracked changes and comments.",
+      "homepage": "https://ezra.tools",
+      "keywords": ["review", "tracked-changes", "comments", "editor"]
+    }
+  ]
+}
