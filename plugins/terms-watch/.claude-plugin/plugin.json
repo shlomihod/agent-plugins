@@ -1,0 +1,12 @@
+{
+  "name": "terms-watch",
+  "description": "Query Terms Watch (termswatch.io) for tracked changes to Terms of Service and Privacy Policies across major platforms — paginated JSON API, no auth.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Shlomi Hod"
+  },
+  "homepage": "https://github.com/shlomihod/agent-plugins/tree/main/plugins/terms-watch",
+  "repository": "https://github.com/shlomihod/agent-plugins",
+  "license": "MIT",
+  "keywords": ["terms-of-service", "privacy-policy", "termswatch", "monitoring", "compliance"]
+}

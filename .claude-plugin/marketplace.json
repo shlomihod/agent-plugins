@@ -25,6 +25,13 @@
       "description": "AI document review with tracked changes and comments.",
       "homepage": "https://ezra.tools",
       "keywords": ["review", "tracked-changes", "comments", "editor"]
+    },
+    {
+      "name": "terms-watch",
+      "source": "./plugins/terms-watch",
+      "description": "Query Terms Watch (termswatch.io) for tracked changes to Terms of Service and Privacy Policies across major platforms — paginated JSON API, no auth.",
+      "version": "0.1.0",
+      "keywords": ["terms-of-service", "privacy-policy", "termswatch", "monitoring", "compliance"]
     }
   ]
 }
